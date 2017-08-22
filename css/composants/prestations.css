@@ -3,6 +3,10 @@
 	padding: 30px 0 30px 0;
 }
 
+.container-presta h3{
+  color: #008EB4;
+}
+
 .prestations {
 	background-color: white;
 	box-shadow: 2px 2px 15px #aaa;
@@ -12,7 +16,6 @@
 .sujet{
 	color: #008EB4;
   font-size: 50px;
-  text-align: center;
 }
 
 .vision{
@@ -108,12 +111,34 @@
 }
 
 .banniere h1{
-  color: black;
+  color: white;
+  background: black;
+  opacity: 0.4;
+}
+
+.menage{
+  width: 22%;
+}
+
+.repassage{
+  width: 26%;
+}
+
+.nettoyage{
+  width: 20%;
+}
+
+.occasions{
+  width: 23%;
+}
+
+.secondaire{
+  width: 26%;
 }
 
 .fleche{
   margin-top: 20px;
-  color: #008EB4; 
+  color: #008EB4;
 }
 
 .contenu{

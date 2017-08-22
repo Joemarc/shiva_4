@@ -8,15 +8,14 @@
 	background-color: #CDECF9;
 	background-color: white;
 	box-shadow: 2px 2px 15px #aaa;
-	padding: 0px 0px 30px; 
-  	
+	padding: 0px 0px 30px;
+
 }
 
 /* form starting stylings ------------------------------- */
-.group 			  { 
-  position:relative; 
-  margin-bottom:45px; 
-  margin-left: 315px;
+.group 			  {
+  position:relative;
+  margin-bottom:45px;
   margin-top: 50px;
 }
 input 				{
@@ -32,15 +31,15 @@ input:focus 		{ outline:none; }
 
 /* LABEL ======================================= */
 label 				 {
-  color:black; 
+  color:black;
   font-size:18px;
   font-weight:normal;
   position:absolute;
   pointer-events:none;
   left:5px;
   top:10px;
-  transition:0.2s ease all; 
-  -moz-transition:0.2s ease all; 
+  transition:0.2s ease all;
+  -moz-transition:0.2s ease all;
   -webkit-transition:0.2s ease all;
 }
 
@@ -55,20 +54,20 @@ input:focus ~ label, input:valid ~ label 		{
 .bar 	{ position:relative; display:block; width:300px; }
 .bar:before, .bar:after 	{
   content:'';
-  height:2px; 
+  height:2px;
   width:0;
-  bottom:1px; 
+  bottom:1px;
   position:absolute;
-  background:#008EB4; 
-  transition:0.2s ease all; 
-  -moz-transition:0.2s ease all; 
+  background:#008EB4;
+  transition:0.2s ease all;
+  -moz-transition:0.2s ease all;
   -webkit-transition:0.2s ease all;
 }
 .bar:before {
   left:50%;
 }
 .bar:after {
-  right:50%; 
+  right:50%;
 }
 
 /* active state */
@@ -79,9 +78,9 @@ input:focus ~ .bar:before, input:focus ~ .bar:after {
 /* HIGHLIGHTER ================================== */
 .highlight {
   position:absolute;
-  height:60%; 
-  width:100px; 
-  top:25%; 
+  height:60%;
+  width:100px;
+  top:25%;
   left:0;
   pointer-events:none;
   opacity:0.5;
@@ -108,3 +107,16 @@ input:focus ~ .highlight {
   to 	{ width:0; background:transparent; }
 }
 
+.bouton{
+  color: #008EB4;
+  border: 1px solid #008EB4;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  margin: 0px 115px;
+}
+
+.container-contact a {
+  text-decoration: none;
+}
