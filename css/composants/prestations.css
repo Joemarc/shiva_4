@@ -141,6 +141,11 @@
   color: #008EB4;
 }
 
+.fleche_dropdown{
+  color: #008EB4;
+  margin-left: 15px;
+}
+
 .contenu{
   margin-top: 40px;
   margin-bottom: 70px;
